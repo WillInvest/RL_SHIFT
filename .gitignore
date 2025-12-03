@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model checkpoints and logs
+ckpt_*/
+logs/
+models/*.zip
+*.zip
+
+# TensorBoard
+tb_*/
+
+# System files
+.DS_Store
+*.log
+nohup.out
+
+# Conda
+.conda/
+miniconda3/
+
+# Dependencies (if you want to exclude them)
+deps/
+
+# Other
+*.tar.bz2
+.store/
+
